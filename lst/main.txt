@@ -1,0 +1,6 @@
+1.4.0 > @timev include("lst/main.jl")
+  0.069197 seconds (38.50 k allocations: 2.041 MiB)
+elapsed time (ns): 69197115
+bytes allocated:   2140363
+pool allocs:       38497
+> dehuffman

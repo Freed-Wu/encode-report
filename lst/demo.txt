@@ -1,0 +1,48 @@
+julia > include("lst/main.jl") # 导入程序包
+dehuffman
+
+julia > # 按?进入帮助模式
+
+help?> huffman
+search: huffman huffmankey huffmancode dehuffman
+
+  huffman code, result is a string
+
+  Examples
+  ≡≡≡≡≡≡≡≡≡≡
+
+  julia> huffman("abca")
+  "010110"
+
+
+help?> huffmankey
+search: huffmankey huffman huffmancode dehuffman
+
+  huffmankey(str)
+
+  key of huffman
+
+  Examples
+  ≡≡≡≡≡≡≡≡≡≡
+
+  julia> huffmankey("abca")
+  'a' => 0
+  'c' => 3
+  'b' => 2
+
+
+help?> dehuffman
+search: dehuffman
+
+  dehuffman(str, dict)
+
+  huffman decode, input is a string
+
+  Examples
+  ≡≡≡≡≡≡≡≡≡≡
+
+  julia> dehuffman("010110", huffmankey("abca"))
+  "abca"
+
+
+julia > 

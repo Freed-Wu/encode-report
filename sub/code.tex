@@ -1,0 +1,18 @@
+\documentclass[../main]{subfiles}
+\begin{document}
+
+\chapter{代码清单}%
+\label{cha:code}
+
+\fvset{%
+  highlightcolor = {yellow!20, white},
+}
+\renewcommand{\fcolorbox}[4][]{#4}
+\langCVfile[julia][lst:main.jl][julia]{主程序}{lst/main.jl}
+\fvset{%
+  highlightcolor = {black, black},
+}
+\windarkfile{运行结果}{lst/main.txt}
+
+\end{document}
+
