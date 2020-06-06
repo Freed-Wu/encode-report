@@ -3,6 +3,12 @@ encode-report
 
 A backup of my homework.
 
+内容：编程实现任一种无损编码方式。
+1.  实现语言不限；
+2.  读取 txt 文件中的英文字符；
+3.  输出每个字符的编码；
+4.  文件名：选课序号 + 姓名
+
 Dependent
 ---------
 
